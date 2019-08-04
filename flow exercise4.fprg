@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-04 06:49:26 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLUpUMDcyNko7MjU2Mi0wOC0wMzswOTo1MjoxOSBQTTsyNzY1"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLUpUMDcyNko7MjU2Mi0wOC0wNDswNjo0OToyNiBQTTszOzI4Nzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FE" type="Integer" array="False" size=""/>
+            <declare name="GB" type="Integer" array="False" size=""/>
+            <declare name="IC" type="Integer" array="False" size=""/>
+            <declare name="CP" type="Integer" array="False" size=""/>
+            <assign variable="FE" expression="20"/>
+            <assign variable="GB" expression="30"/>
+            <assign variable="IC" expression="45"/>
+            <assign variable="CP" expression="25"/>
+            <output expression="&quot;-------------YourScore--------------&quot;" newline="True"/>
+            <output expression="&quot;Foundation English:&quot;&amp;FE" newline="True"/>
+            <output expression="&quot;General Business:&quot;&amp;GB" newline="True"/>
+            <output expression="&quot;Introduction to Computer Score:&quot;&amp;IC" newline="True"/>
+            <output expression="&quot;Computer Programming:&quot;&amp;CP" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
